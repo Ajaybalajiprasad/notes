@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,rgb(213, 0, 178),rgb(68, 73, 174));
+    color: white;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 35px;
+}
+.container button img{
+    width: 35px;
+    margin-right: 4px;
+}
+
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(burlywood,rgb(255,191,0));
+    color: white;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 9px 10px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+} 
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 150px;
+    background: rgb(255, 255, 255);
+    color: rgb(51, 49, 49);
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.container-notes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    cursor: pointer;
+}
